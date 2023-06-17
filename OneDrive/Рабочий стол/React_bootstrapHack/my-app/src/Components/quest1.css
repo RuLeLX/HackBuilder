@@ -1,0 +1,15 @@
+.num_pages {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    
+}
+
+.pages {
+    height: 8px;
+    width: 8px;
+    background-color: rgb(175, 175, 175);
+    margin-left: 5px;    
+}
+
+

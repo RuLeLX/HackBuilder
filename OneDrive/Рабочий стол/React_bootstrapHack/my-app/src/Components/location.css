@@ -1,0 +1,16 @@
+#button_with_stik {
+    height: 45px;
+    width: 45px;
+    border-radius: 20px;
+    border: 0px;
+    position: relative;
+    bottom: 35px;
+}
+
+.Stick {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(173, 173, 173);
+    margin-top: 4px;
+    margin-left: 3px;
+}

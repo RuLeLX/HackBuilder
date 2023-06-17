@@ -1,0 +1,39 @@
+body {
+ 
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#Map {
+    height: 500px;
+}
+
+#point {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 60px solid #f00;
+  border-radius: 100px;
+}
+
+#dot_in_point {
+  position: relative;
+  background-color: rgb(94, 28, 28);
+  width: 12px;
+  height: 12px;
+  bottom: 50px;
+  right: 6px;
+  border-radius: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
